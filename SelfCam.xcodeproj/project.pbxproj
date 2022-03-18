@@ -16,13 +16,13 @@
 		6E329B4B27E4555500C39553 /* SelfCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E329B4A27E4555500C39553 /* SelfCamTests.swift */; };
 		6E329B5527E4555500C39553 /* SelfCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E329B5427E4555500C39553 /* SelfCamUITests.swift */; };
 		6E329B5727E4555500C39553 /* SelfCamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E329B5627E4555500C39553 /* SelfCamUITestsLaunchTests.swift */; };
-		6E329B6827E455A400C39553 /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E329B6327E455A400C39553 /* Classifier.swift */; };
-		6E329B6927E455A400C39553 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E329B6427E455A400C39553 /* EditViewController.swift */; };
-		6E329B6A27E455A400C39553 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E329B6527E455A400C39553 /* APIResponse.swift */; };
-		6E329B6B27E455A400C39553 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E329B6627E455A400C39553 /* DrawView.swift */; };
-		6E329B6C27E455A400C39553 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E329B6727E455A400C39553 /* PreviewView.swift */; };
 		6E329B6F27E4567900C39553 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6E329B6E27E4567900C39553 /* SnapKit */; };
 		6E329B7127E4579900C39553 /* CNNEmotions.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6E329B7027E4579900C39553 /* CNNEmotions.mlmodel */; };
+		6E329B7727E46BCD00C39553 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E329B7227E46BCD00C39553 /* PreviewView.swift */; };
+		6E329B7827E46BCD00C39553 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E329B7327E46BCD00C39553 /* EditViewController.swift */; };
+		6E329B7927E46BCD00C39553 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E329B7427E46BCD00C39553 /* DrawView.swift */; };
+		6E329B7A27E46BCD00C39553 /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E329B7527E46BCD00C39553 /* Classifier.swift */; };
+		6E329B7B27E46BCD00C39553 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E329B7627E46BCD00C39553 /* APIResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,12 +56,12 @@
 		6E329B5027E4555500C39553 /* SelfCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E329B5427E4555500C39553 /* SelfCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCamUITests.swift; sourceTree = "<group>"; };
 		6E329B5627E4555500C39553 /* SelfCamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCamUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		6E329B6327E455A400C39553 /* Classifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Classifier.swift; path = ../../CameraProject/Moais/Classifier.swift; sourceTree = "<group>"; };
-		6E329B6427E455A400C39553 /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditViewController.swift; path = ../../CameraProject/Moais/EditViewController.swift; sourceTree = "<group>"; };
-		6E329B6527E455A400C39553 /* APIResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIResponse.swift; path = ../../CameraProject/Moais/APIResponse.swift; sourceTree = "<group>"; };
-		6E329B6627E455A400C39553 /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawView.swift; path = ../../CameraProject/Moais/DrawView.swift; sourceTree = "<group>"; };
-		6E329B6727E455A400C39553 /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreviewView.swift; path = ../../CameraProject/Moais/PreviewView.swift; sourceTree = "<group>"; };
 		6E329B7027E4579900C39553 /* CNNEmotions.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = CNNEmotions.mlmodel; path = ../../../Downloads/CNNEmotions.mlmodel; sourceTree = "<group>"; };
+		6E329B7227E46BCD00C39553 /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		6E329B7327E46BCD00C39553 /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		6E329B7427E46BCD00C39553 /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		6E329B7527E46BCD00C39553 /* Classifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
+		6E329B7627E46BCD00C39553 /* APIResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,11 +116,11 @@
 				6E329B3327E4555400C39553 /* AppDelegate.swift */,
 				6E329B3527E4555400C39553 /* SceneDelegate.swift */,
 				6E329B3727E4555400C39553 /* ViewController.swift */,
-				6E329B6427E455A400C39553 /* EditViewController.swift */,
-				6E329B6527E455A400C39553 /* APIResponse.swift */,
-				6E329B6327E455A400C39553 /* Classifier.swift */,
-				6E329B6627E455A400C39553 /* DrawView.swift */,
-				6E329B6727E455A400C39553 /* PreviewView.swift */,
+				6E329B7627E46BCD00C39553 /* APIResponse.swift */,
+				6E329B7527E46BCD00C39553 /* Classifier.swift */,
+				6E329B7427E46BCD00C39553 /* DrawView.swift */,
+				6E329B7327E46BCD00C39553 /* EditViewController.swift */,
+				6E329B7227E46BCD00C39553 /* PreviewView.swift */,
 				6E329B3927E4555400C39553 /* Main.storyboard */,
 				6E329B3C27E4555500C39553 /* Assets.xcassets */,
 				6E329B3E27E4555500C39553 /* LaunchScreen.storyboard */,
@@ -284,15 +284,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E329B6927E455A400C39553 /* EditViewController.swift in Sources */,
-				6E329B6C27E455A400C39553 /* PreviewView.swift in Sources */,
-				6E329B6827E455A400C39553 /* Classifier.swift in Sources */,
+				6E329B7A27E46BCD00C39553 /* Classifier.swift in Sources */,
+				6E329B7727E46BCD00C39553 /* PreviewView.swift in Sources */,
 				6E329B7127E4579900C39553 /* CNNEmotions.mlmodel in Sources */,
-				6E329B6B27E455A400C39553 /* DrawView.swift in Sources */,
+				6E329B7927E46BCD00C39553 /* DrawView.swift in Sources */,
+				6E329B7827E46BCD00C39553 /* EditViewController.swift in Sources */,
 				6E329B3827E4555400C39553 /* ViewController.swift in Sources */,
 				6E329B3427E4555400C39553 /* AppDelegate.swift in Sources */,
 				6E329B3627E4555400C39553 /* SceneDelegate.swift in Sources */,
-				6E329B6A27E455A400C39553 /* APIResponse.swift in Sources */,
+				6E329B7B27E46BCD00C39553 /* APIResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
